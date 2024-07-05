@@ -1,6 +1,7 @@
 import React from 'react'
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
+import DarkMode from '../DarkMode'
 
 const MenuLinks=[
     {
@@ -74,6 +75,9 @@ const Navbar = () => {
                 </button>
                 
                 {/*Darkmode section*/}
+                <div>
+                    <DarkMode/>
+                </div>
             </div>
         </div>
       </div>
